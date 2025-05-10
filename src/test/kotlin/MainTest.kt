@@ -29,7 +29,7 @@ class MainTest {
     @Test
     fun fullCommissionMastercard() {
         val result = calculateCommission("Mastercard", 100_000)
-        assertEquals(621, result) // 100000 * 0.006 + 20
+        assertEquals(620, result) // 100000 * 0.006 + 20
     }
 
     @Test
